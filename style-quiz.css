@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    font-family: "Cabin", serif;
+    color: #40592E;
+    background-color: #f2e0c9;
+    font-weight: 400; 
 }
-
 
 body{
     font-family: "Cabin", serif;
@@ -45,9 +43,7 @@ header p{
 }
 
 nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
 }
 
 nav a {
@@ -72,6 +68,11 @@ main{
     padding:20px
 }
 
+
+.main-container{
+    color: white;
+}
+
 #frase-de-efeito{
     color: #ffcc03;
     font-weight: 600;
@@ -84,9 +85,8 @@ main{
 
 }
 
-
 h1{
-    color: #ffffff;;
+    color:#ffcc03;
     font-size: 2rem;
     padding: 20px;
 }
@@ -105,65 +105,10 @@ h1{
     color: #a10e0e
 }
 
-.container{
-    display: flex;
-    gap:20px;  /* espaço entre os blocos*/
-    max-width: 1000px;
-    margin: 0 auto; 
-    flex-wrap: wrap;
-}
-
-.main-block{
-    background-color: #ebd2aa; 
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(17, 43, 15, 0.267);
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 200px;
-    justify-content: space-evenly; 
-    align-items: center;
-    padding: 20px; /*aumentar os blocos*/
-    
-
-}
-
-.container h2{
-    color: #3f0b0b;
-}
-
-.container p{
-    color:#0d0d0d;
-    padding: 5px;
-    font-weight: 450;
-}
-
-.main-block a{
-    color:#f2e0c9;
-    background-color: #3f0b0b;
-    text-decoration: none;
-    padding: 5px 12px;
-    border-radius: 15px;
-    max-width: 150px;
-    font-weight: 500;
-    transition: all 0.5s;
-    margin-bottom: 10px;
-}
-
-.main-block a:hover{
-    color:black;
-    background-color: #ffcc03;
-}
-
 
 footer{
     background-color: #0e0d0d;
     color:#f2e0c9;
     text-align: center;
     padding: 20px 0px;
-}
-
-@media (max-width:160px){
-    header img {
-        width: 100%;
-    }
 }
