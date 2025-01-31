@@ -1,9 +1,9 @@
-body{
-    font-family: "Cabin", serif;
-    color: #40592E;
-    background-color: #f2e0c9;
-    font-weight: 400; 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 
 body{
     font-family: "Cabin", serif;
@@ -111,4 +111,10 @@ footer{
     color:#f2e0c9;
     text-align: center;
     padding: 20px 0px;
+}
+
+@media (max-width:160px){
+    header img {
+        width: 100%;
+    }
 }
